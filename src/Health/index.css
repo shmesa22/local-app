@@ -1,9 +1,6 @@
 .emergency-numbers {
   background-color: azure;
-  text-align: center;
   padding: 5px;
-  display: flex;
-  justify-content: center;
 }
 
 .emergency-numbers__button {
@@ -11,6 +8,8 @@
   display: flex;
   align-items: center;
   font-size: 16px;
+  width: 100%;
+  justify-content: center;
 }
 
 .icon {
@@ -30,4 +29,9 @@
 
 .modal__content {
   font-family: var(--font-roboto);
+  height: 85%;
+}
+
+button {
+  cursor: pointer;
 }
