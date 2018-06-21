@@ -18,6 +18,7 @@
   --color-red-dark: #bf0d27;
   --color-blue: #0a41de;
   --color-blue-dark: #112aba;
+  --color-black: #000000;
   --font-futura: 'FuturaStd-Book';
   --font-roboto: 'Roboto-Thin';
 }
@@ -49,7 +50,7 @@ section:target {
 }
 
 .accordion__panel-active:after {
-  content: "\2796";
+  content: '\2796';
 }
 
 .accordion__panel {
@@ -129,4 +130,32 @@ section:target {
   background: url(static/icons/icon_phone.png) no-repeat;
   width: 75px;
   height: 75px;
+}
+
+.icon_profile {
+  background: url(static/icons/icon-perfil.png) no-repeat;
+  background-size: contain;
+  width: 28px;
+  height: 28px;
+}
+
+.icon_health {
+  background: url(static/icons/icon-salud.png) no-repeat;
+  background-size: contain;
+  width: 28px;
+  height: 28px;
+}
+
+.icon_work {
+  background: url(static/icons/icon-trabajo.png) no-repeat;
+  background-size: contain;
+  width: 28px;
+  height: 28px;
+}
+
+.icon_legal {
+  background: url(static/icons/icon-legal.png) no-repeat;
+  background-size: contain;
+  width: 28px;
+  height: 28px;
 }
