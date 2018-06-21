@@ -30,6 +30,18 @@
   height: 85%;
 }
 
+.modal__title {
+  font-family: var(--font-roboto);
+  letter-spacing: 2px;
+  color: var(--color-orange-two);
+}
+
+.modal__header {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
 button {
   cursor: pointer;
 }

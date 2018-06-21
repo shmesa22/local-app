@@ -85,6 +85,7 @@ section:target {
   right: 0;
   bottom: 0;
   cursor: pointer;
+  opacity: 0.9;
 }
 
 .modal__content {
@@ -98,6 +99,12 @@ section:target {
   display: block;
 }
 
+.modal--close {
+  position: absolute;
+  right: 0;
+  top: 0;
+  margin: 30px;
+}
 /* icons */
 
 .icon {
@@ -108,4 +115,16 @@ section:target {
   background: url(static/icons/icon_call.png) no-repeat;
   width: 25px;
   height: 25px;
+}
+
+.icon_close {
+  background: url(static/icons/icon_close.png) no-repeat;
+  width: 25px;
+  height: 25px;
+}
+
+.icon_phone {
+  background: url(static/icons/icon_phone.png) no-repeat;
+  width: 75px;
+  height: 75px;
 }
