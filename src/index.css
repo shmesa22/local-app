@@ -40,6 +40,23 @@ section:target {
   font-size: 30px;
 }
 
+.accordion__button:after {
+  content: '\02795';
+  font-size: 13px;
+  color: #777;
+  float: right;
+  margin-left: 5px;
+}
+
+.accordion__panel-active:after {
+  content: "\2796";
+}
+
+.accordion__panel {
+  display: none;
+  overflow: hidden;
+}
+
 .navbar {
   height: 60px;
   position: fixed;
