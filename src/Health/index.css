@@ -30,4 +30,5 @@
 
 .modal__content {
   font-family: var(--font-roboto);
+  height: 85%;
 }
