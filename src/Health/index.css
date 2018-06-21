@@ -24,9 +24,9 @@
 .map__frame {
   height: calc(100vh - 120px);
   width: 100%;
+  box-sizing: border-box;
 }
 
 .modal__content {
   font-family: var(--font-roboto);
 }
-
