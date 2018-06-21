@@ -1,7 +1,7 @@
-import legalTemplate from "./index.html"
+import legalTemplate from './index.html';
 
 function initLegalLanding() {
-  const legal = document.querySelector(".legal");
+  const legal = document.querySelector('.legal');
   legal.innerHTML = legalTemplate;
 }
-export default initLegalLanding
+export default initLegalLanding;

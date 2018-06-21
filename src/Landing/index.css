@@ -1,0 +1,108 @@
+.landing__header {
+  background-color: var(--color-pink);
+  height: 155px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 4px 10px 1px var(--color-red-dark);
+  position: relative;
+  z-index: 5;
+}
+
+.category {
+  height: 130px;
+  display: flex;
+}
+
+.drop-shadow {
+  box-shadow: 0 4px 10px 1px var(--color-red-dark);
+  position: relative;
+}
+
+.category__text-group {
+  flex-basis: 68%;
+}
+
+.category__icon-box {
+  flex-basis: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile-section {
+  background-color: var(--color-orange-one);
+  z-index: 4;
+}
+
+.profile-info {
+  margin: 0 0 0 120px;
+  position: relative;
+  top: -20px;
+}
+
+.health-section {
+  background-color: var(--color-orange-two);
+  z-index: 3;
+}
+
+.work-section {
+  background-color: var(--color-red);
+  z-index: 2;
+}
+
+.legal-section {
+  background-color: var(--color-blue);
+}
+
+.category__heading {
+  font-family: var(--font-futura);
+  font-size: 25px;
+  color: #fff;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  margin-top: 55px;
+  margin-bottom: 9px;
+}
+
+.category__description,
+.category__subheading {
+  font-family: var(--font-roboto);
+  font-size: 12px;
+  color: #fff;
+  letter-spacing: 2px;
+  margin: 0;
+}
+
+.category__line-break {
+  height: 1px;
+  width: 100%;
+  background-color: #fff;
+  display: block;
+  margin: 9px 0;
+}
+
+.registration-wrapper,
+.login-wrapper {
+  display: none;
+}
+
+.read-more {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-top: 20px;
+  margin-right: 20px;
+}
+
+.read-more__text {
+  display: inline-block;
+  font-family: var(--font-roboto);
+  font-size: 12px;
+  color: #fff;
+  letter-spacing: 2px;
+}
+
+.landing-links {
+  text-decoration: none;
+}

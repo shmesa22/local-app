@@ -18,6 +18,7 @@
   --color-red-dark: #bf0d27;
   --color-blue: #0a41de;
   --color-blue-dark: #112aba;
+  --color-black: #000000;
   --font-futura: 'FuturaStd-Book';
   --font-roboto: 'Roboto-Thin';
 }
@@ -86,6 +87,7 @@ section:target {
   bottom: 0;
   background-color: rgba(0, 0, 0, 0.5);
   cursor: pointer;
+  opacity: 0.95;
 }
 
 .modal__content {
@@ -97,4 +99,73 @@ section:target {
 
 .modal--active {
   display: block;
+}
+
+.modal--close {
+  position: absolute;
+  right: 0;
+  top: 0;
+  margin: 30px;
+  display: flex;
+  padding-top: 7px;
+}
+/* icons */
+
+.icon {
+  padding-right: 15px;
+}
+
+.icon_call {
+  background: url(static/icons/icon_call.png) no-repeat;
+  width: 25px;
+  height: 25px;
+}
+
+.icon_close {
+  background: url(static/icons/icon_close.png) no-repeat;
+  width: 25px;
+  height: 25px;
+}
+
+.icon_phone {
+  background: url(static/icons/icon_phone.png) no-repeat;
+  width: 75px;
+  height: 75px;
+}
+
+.icon_profile {
+  background: url(static/icons/icon-perfil.png) no-repeat;
+  background-size: contain;
+  width: 28px;
+  height: 28px;
+}
+
+.icon_health {
+  background: url(static/icons/icon-salud.png) no-repeat;
+  background-size: contain;
+  width: 28px;
+  height: 28px;
+}
+
+.icon_work {
+  background: url(static/icons/icon-trabajo.png) no-repeat;
+  background-size: contain;
+  width: 28px;
+  height: 28px;
+}
+
+.icon_legal {
+  background: url(static/icons/icon-legal.png) no-repeat;
+  background-size: contain;
+  width: 28px;
+  height: 28px;
+}
+
+.icon_right-arrow {
+  background: url(static/icons/icon-desplegable.png) no-repeat;
+  background-size: contain;
+  width: 33px;
+  height: 33px;
+  display: inline-block;
+  margin-left: 10px;
 }
