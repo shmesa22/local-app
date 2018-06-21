@@ -1,9 +1,9 @@
-import Landing from './Landing';
+import initLanding from './Landing';
 import initModal from './Modal/index';
 import initHealth from './Health/index';
 
 (function App() {
-  Landing();
+  initLanding();
   initHealth();
   initModal();
 })();
