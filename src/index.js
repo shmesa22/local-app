@@ -1,6 +1,7 @@
 import initEmployment from './Employment';
 import initLanding from './Landing';
 import initHealth from './Health/index';
+import initLegalLanding from "./Legal";
 
 function initModal() {
   const MODAL_CLASS = 'modal';
@@ -8,7 +9,9 @@ function initModal() {
   const openModalButton = document.querySelector(`.${MODAL_CLASS}--open`);
   const closeModalButton = document.querySelector(`.${MODAL_CLASS}--close`);
 
-  const openCloseModal = ({ target }) => {
+  const openCloseModal = ({
+    target
+  }) => {
     const modalId = target.getAttribute('data-modal');
     modal = document.getElementById(modalId);
     modal.classList.toggle(`${MODAL_CLASS}--active`);
@@ -16,11 +19,12 @@ function initModal() {
 
   openModalButton.addEventListener('click', openCloseModal);
   closeModalButton.addEventListener('click', openCloseModal);
-} 
+}
 
 (function App() {
   initEmployment();
   initLanding();
   initHealth();
+  initLegalLanding();
   initModal();
 })();
