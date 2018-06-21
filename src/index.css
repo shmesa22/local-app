@@ -12,17 +12,22 @@ section:target {
   display: block;
 }
 
+.fas {
+  font-size: 30px;
+}
+
 .navbar {
-  height: 50px;
+  height: 60px;
   position: fixed;
+  background-color: #fff;
   bottom: 0;
+  border-top: 1px solid #333;
   width: 100%;
-  background-color: blue;
   display: flex;
   align-items: center;
   justify-content: space-around;
 }
 
 .navbar__link {
-  color: white;
+  color: #333;
 }
