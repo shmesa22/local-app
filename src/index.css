@@ -1,8 +1,28 @@
 body {
   margin: 0;
   padding: 0;
+  min-height: 100vh;
 }
 
-:target {
+section {
+  display: none;
+}
+
+section:target {
   display: block;
+}
+
+.navbar {
+  height: 50px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: blue;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.navbar__link {
+  color: white;
 }
