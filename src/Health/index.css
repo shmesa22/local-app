@@ -26,3 +26,7 @@
   width: 100%;
 }
 
+.modal__content {
+  font-family: var(--font-roboto);
+}
+
