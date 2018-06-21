@@ -5,12 +5,18 @@
   justify-content: center;
   align-items: center;
   box-shadow: 0 4px 10px 1px var(--color-red-dark);
+  position: relative;
+  z-index: 5;
 }
 
 .category {
   height: 130px;
-  box-shadow: 0 4px 10px 1px #eee;
   display: flex;
+}
+
+.drop-shadow {
+  box-shadow: 0 4px 10px 1px var(--color-red-dark);
+  position: relative;
 }
 
 .category__text-group {
@@ -24,23 +30,28 @@
   align-items: center;
 }
 
-.profile {
+.profile-section {
   background-color: var(--color-orange-one);
+  z-index: 4;
 }
 
 .profile-info {
   margin: 0 0 0 120px;
+  position: relative;
+  top: -20px;
 }
 
-.health {
+.health-section {
   background-color: var(--color-orange-two);
+  z-index: 3;
 }
 
-.work {
+.work-section {
   background-color: var(--color-red);
+  z-index: 2;
 }
 
-.legal {
+.legal-section {
   background-color: var(--color-blue);
 }
 
