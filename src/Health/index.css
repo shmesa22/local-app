@@ -1,6 +1,5 @@
 .emergency-numbers {
-  background-color: azure;
-  padding: 5px;
+  background-color: var(--color-orange-two);
 }
 
 .emergency-numbers__button {
@@ -10,10 +9,9 @@
   font-size: 16px;
   width: 100%;
   justify-content: center;
-}
-
-.icon {
-  padding-right: 10px;
+  font-family: var(--font-roboto);
+  color: white;
+  letter-spacing: 1px;
 }
 
 .map {
@@ -30,6 +28,18 @@
 .modal__content {
   font-family: var(--font-roboto);
   height: 85%;
+}
+
+.modal__title {
+  font-family: var(--font-roboto);
+  letter-spacing: 2px;
+  color: var(--color-orange-two);
+}
+
+.modal__header {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
 
 button {
