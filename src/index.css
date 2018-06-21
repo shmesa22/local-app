@@ -41,15 +41,15 @@ section:target {
 }
 
 .accordion__button:after {
-  content: '\02795';
-  font-size: 13px;
-  color: #777;
+  content: '+';
+  font-size: 15px;
+  color: #fff;
   float: right;
-  margin-left: 5px;
+  margin-left: 10px;
 }
 
 .accordion__panel-active:after {
-  content: "\2796";
+  content: '-';
 }
 
 .accordion__panel {
@@ -84,7 +84,7 @@ section:target {
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: rgba(0,0,0,0.5);
+  background-color: rgba(0, 0, 0, 0.5);
   cursor: pointer;
 }
 
