@@ -41,6 +41,23 @@ section:target {
   font-size: 30px;
 }
 
+.accordion__button:after {
+  content: '\02795';
+  font-size: 13px;
+  color: #777;
+  float: right;
+  margin-left: 5px;
+}
+
+.accordion__panel-active:after {
+  content: "\2796";
+}
+
+.accordion__panel {
+  display: none;
+  overflow: hidden;
+}
+
 .navbar {
   height: 60px;
   position: fixed;
@@ -55,4 +72,30 @@ section:target {
 
 .navbar__link {
   color: #333;
+}
+
+/* Modal */
+.modal {
+  display: none;
+  z-index: 1;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.5);
+  cursor: pointer;
+}
+
+.modal__content {
+  z-index: 2;
+  margin: 20px;
+  background-color: whitesmoke;
+  padding: 30px;
+}
+
+.modal--active {
+  display: block;
 }
