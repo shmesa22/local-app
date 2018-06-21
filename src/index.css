@@ -1,3 +1,13 @@
+@font-face {
+  font-family: 'FuturaStd-Book';
+  src: url(static/fonts/FuturaStd-Book.otf);
+}
+
+@font-face {
+  font-family: 'Roboto-Thin';
+  src: url(static/fonts/Roboto-Thin.ttf);
+}
+
 body {
   margin: 0;
   padding: 0;
