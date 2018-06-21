@@ -1,8 +1,8 @@
 import healthTemplate from './index.html';
 
 function initHealth() {
-  const root = document.querySelector('.health');
-  root.innerHTML = healthTemplate;
+  const health = document.querySelector('.health');
+  health.innerHTML = healthTemplate;
 }
 
 export default initHealth;
