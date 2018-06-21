@@ -1,3 +1,27 @@
+@font-face {
+  font-family: 'FuturaStd-Book';
+  src: url(static/fonts/FuturaStd-Book.otf);
+}
+
+@font-face {
+  font-family: 'Roboto-Thin';
+  src: url(static/fonts/Roboto-Thin.ttf);
+}
+
+:root {
+  --color-pink: #f92659;
+  --color-orange-one: #fe484f;
+  --color-orange-one-dark: #ec1c2c;
+  --color-orange-two: #ff663f;
+  --color-orange-two-dark: #ec472e;
+  --color-red: #de0a0a;
+  --color-red-dark: #bf0d27;
+  --color-blue: #0a41de;
+  --color-blue-dark: #112aba;
+  --font-futura: 'FuturaStd-Book';
+  --font-roboto: 'Roboto-Thin';
+}
+
 body {
   margin: 0;
   padding: 0;
