@@ -1,3 +1,5 @@
-const root = document.querySelector('.root');
+import Landing from './Landing';
 
-root.innerHTML = '<h1>Hello World</h1>';
+(function App() {
+  Landing();
+})();
