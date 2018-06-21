@@ -1,55 +1,106 @@
 <section id="landing">
-  <article class="category">
-    <img src="https://bit.ly/2bHlWiZ" alt="Smiley face" height="16" width="16" class="category__icon">
-    <h2 class="category__heading">Perfil</h2>
-    <p class="category__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-  </article>
-  <article class="category">
-    <img src="https://bit.ly/2bHlWiZ" alt="Smiley face" height="16" width="16" class="category__icon">
-    <h2 class="category__heading">Salud</h2>
-    <p class="category__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-  </article>
-  <article class="category">
-    <img src="https://bit.ly/2bHlWiZ" alt="Smiley face" height="16" width="16" class="category__icon">
-    <h2 class="category__heading">Empleos</h2>
-    <p class="category__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-  </article>
-  <article class="category">
-    <img src="https://bit.ly/2bHlWiZ" alt="Smiley face" height="16" width="16" class="category__icon">
-    <h2 class="category__heading">Proceso Legal</h2>
-    <p class="categories__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+  <article class="landing__header">
+    <img src="https://bit.ly/2bHlWiZ" alt="Smiley face" height="45" width="150" class="category__icon">
   </article>
 
+  <article class="profile">
+    <div class="accordion__button category">
+      <div class="category__icon-box">
+        <img src="https://bit.ly/2bHlWiZ" alt="Smiley face" height="16" width="16" class="category__icon">
+      </div>
+      <div class="category__text-group">
+        <h2 class="category__heading">Perfil</h2>
+        <h3 class="category__subheading">Información</h3>
+      </div>
+    </div>
+    <div class="accordion__panel profile-info">
+      <span class="category__line-break"></span>
+      <p class="category__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+        aliqua.
+      </p>
+    </div>
+  </article>
 
-  <h1>Registro</h1>
-  <form class="registration">
-    <label for="first-name" class="registration__first-name-label">Nombres:</label>
-    <input type="text" class="registration__first-name-input" id="first-name">
+  <article class="category health">
+    <div class="category__icon-box">
+      <img src="https://bit.ly/2bHlWiZ" alt="Smiley face" height="16" width="16" class="category__icon">
+    </div>
+    <div class="category__text-group">
+      <h2 class="category__heading">Salud</h2>
+      <h3 class="category__subheading">Servicios de atencion gratuita</h3>
+      <div class="accordion__panel">
+        <span class="category__line-break"></span>
+        <p class="category__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+          aliqua.
+        </p>
+      </div>
+    </div>
+  </article>
+  <article class="category work">
+    <div class="category__icon-box">
+      <img src="https://bit.ly/2bHlWiZ" alt="Smiley face" height="16" width="16" class="category__icon">
+    </div>
+    <div class="category__text-group">
+      <h2 class="category__heading">Empleos</h2>
+      <h3 class="category__subheading">Trabajo en Colombia</h3>
+      <div class="accordion__panel">
+        <span class="category__line-break"></span>
+        <p class="category__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+          aliqua.
+        </p>
+      </div>
+    </div>
+  </article>
+  <article class="category legal">
+    <div class="category__icon-box">
+      <img src="https://bit.ly/2bHlWiZ" alt="Smiley face" height="16" width="16" class="category__icon">
+    </div>
+    <div class="category__text-group">
+      <h2 class="category__heading">Proceso Legal</h2>
+      <h3 class="category__subheading">Papeles y legalización</h3>
+      <div class="accordion__panel">
+        <span class="category__line-break"></span>
+        <p class="categories__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+          aliqua.
+        </p>
+      </div>
+    </div>
+  </article>
 
-    <label for="last-name" class="registration__last-name-label">Apellidos:</label>
-    <input type="text" class="registration__last-name-input" id="last-name">
 
-    <label for="document-type" class="registration__document-type">Tipo de Documento:</label>
-    <select id="document-type">
-      <option value="cedula-identidad">Cedula de Identidad</option>
-      <option value="pasaporte">Pasaporte</option>
-      <option value="none" selected>--Por favor escoje una opcion--</option>
-    </select>
+  <div class="registration-wrapper">
+    <h1>Registro</h1>
+    <form class="registration">
+      <label for="first-name" class="registration__first-name-label">Nombres:</label>
+      <input type="text" class="registration__first-name-input" id="first-name">
 
-    <label for="document-number" class="registration__document-number-label">Numero de Documento:</label>
-    <input type="text" class="registration__document-number-input" id="document-number">
+      <label for="last-name" class="registration__last-name-label">Apellidos:</label>
+      <input type="text" class="registration__last-name-input" id="last-name">
 
-    <label for="phone-number" class="registration__phone-number-label">Numero de contacto:</label>
-    <input type="text" class="registration__phone-number-input" id="phone-number">
-  </form>
+      <label for="document-type" class="registration__document-type">Tipo de Documento:</label>
+      <select id="document-type">
+        <option value="cedula-identidad">Cedula de Identidad</option>
+        <option value="pasaporte">Pasaporte</option>
+        <option value="none" selected>--Por favor escoje una opcion--</option>
+      </select>
 
-  <h1>Login</h1>
-  <form class="login">
-    <label for="document-number" class="login__document-number-label">Numero de Documento:</label>
-    <input type="text" class="login__document-number-input" id="document-number">
+      <label for="document-number" class="registration__document-number-label">Numero de Documento:</label>
+      <input type="text" class="registration__document-number-input" id="document-number">
 
-    <label for="contraseña" class="login__password-label">Contraseña:</label>
-    <input type="text" class="login__password-input" id="contraseña">
-  </form>
+      <label for="phone-number" class="registration__phone-number-label">Numero de contacto:</label>
+      <input type="text" class="registration__phone-number-input" id="phone-number">
+    </form>
+  </div>
+
+  <div class="login-wrapper">
+    <h1>Login</h1>
+    <form class="login">
+      <label for="document-number" class="login__document-number-label">Numero de Documento:</label>
+      <input type="text" class="login__document-number-input" id="document-number">
+
+      <label for="contraseña" class="login__password-label">Contraseña:</label>
+      <input type="text" class="login__password-input" id="contraseña">
+    </form>
+  </div>
 
 </section>
