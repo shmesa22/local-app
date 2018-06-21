@@ -1,5 +1,5 @@
-import Landing from './Landing';
+import initLanding from './Landing';
 
 (function App() {
-  Landing();
+  initLanding();
 })();

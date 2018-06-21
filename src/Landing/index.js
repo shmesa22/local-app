@@ -1,9 +1,9 @@
 import landingTemplate from './index.html';
 
-function Landing() {
+function initLanding() {
   const landing = document.querySelector('.landing');
 
   landing.innerHTML = landingTemplate;
 }
 
-export default Landing;
+export default initLanding;
