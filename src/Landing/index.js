@@ -1,4 +1,4 @@
 import landingTemplate from './index.html';
-const root = document.querySelector('.root');
+const landing = document.querySelector('.landing');
 
-root.innerHTML = landingTemplate;
+landing.innerHTML = landingTemplate;
