@@ -14,10 +14,6 @@
   letter-spacing: 1px;
 }
 
-.icon {
-  padding-right: 10px;
-}
-
 .map {
   height: calc(100vh - 120px);
 } 

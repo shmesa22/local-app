@@ -84,7 +84,6 @@ section:target {
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: rgba(0,0,0,0.5);
   cursor: pointer;
 }
 
@@ -101,6 +100,12 @@ section:target {
 
 /* icons */
 
+.icon {
+  padding-right: 15px;
+}
+
 .icon_call {
-  background: url(static/icons/icon_call.png);
+  background: url(static/icons/icon_call.png) no-repeat;
+  width: 25px;
+  height: 25px;
 }
