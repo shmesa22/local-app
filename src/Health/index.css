@@ -2,9 +2,27 @@
   background-color: azure;
   text-align: center;
   padding: 5px;
+  display: flex;
+  justify-content: center;
 }
 
 .emergency-numbers__button {
+  height: 60px;
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+}
 
+.icon {
+  padding-right: 10px;
+}
+
+.map {
+  height: calc(100vh - 120px);
+} 
+
+.map__frame {
+  height: calc(100vh - 120px);
+  width: 100%;
 }
 
