@@ -4,11 +4,13 @@ import initHealth from './Health/index';
 
 function initModal() {
   const MODAL_CLASS = 'modal';
-  const modal = document.querySelector(`.${MODAL_CLASS}`);
+  let modal = null;
   const openModalButton = document.querySelector(`.${MODAL_CLASS}--open`);
   const closeModalButton = document.querySelector(`.${MODAL_CLASS}--close`);
 
-  const openCloseModal = () => {
+  const openCloseModal = ({ target }) => {
+    const modalId = target.getAttribute('data-modal');
+    modal = document.getElementById(modalId);
     modal.classList.toggle(`${MODAL_CLASS}--active`);
   };
 
