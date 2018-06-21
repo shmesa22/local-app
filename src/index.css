@@ -85,7 +85,7 @@ section:target {
   right: 0;
   bottom: 0;
   cursor: pointer;
-  opacity: 0.9;
+  opacity: 0.95;
 }
 
 .modal__content {
@@ -104,6 +104,8 @@ section:target {
   right: 0;
   top: 0;
   margin: 30px;
+  display: flex;
+  padding-top: 7px;
 }
 /* icons */
 
