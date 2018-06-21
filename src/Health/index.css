@@ -1,6 +1,5 @@
 .emergency-numbers {
-  background-color: azure;
-  padding: 5px;
+  background-color: var(--color-orange-two);
 }
 
 .emergency-numbers__button {
@@ -10,6 +9,9 @@
   font-size: 16px;
   width: 100%;
   justify-content: center;
+  font-family: var(--font-roboto);
+  color: white;
+  letter-spacing: 1px;
 }
 
 .icon {

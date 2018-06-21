@@ -81,3 +81,9 @@ section:target {
 .modal--active {
   display: block;
 }
+
+/* icons */
+
+.icon_call {
+  background: url(static/icons/icon_call.png);
+}
