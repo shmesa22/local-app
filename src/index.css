@@ -171,3 +171,12 @@ section:target {
   display: inline-block;
   margin-left: 10px;
 }
+
+.landing,
+.health,
+.employment,
+.legal {
+  box-sizing: border-box;
+  width: 100%;
+  overflow: hidden;
+}
