@@ -2,6 +2,7 @@ import initEmployment from './Employment';
 import initLanding from './Landing';
 import initHealth from './Health/index';
 import initLegalLanding from './Legal';
+import initRegister from './Register';
 
 function initModal() {
   const MODAL_CLASS = 'modal';
@@ -25,6 +26,7 @@ function initModal() {
   initHealth();
   initLegalLanding();
   initModal();
+  initRegister();
 
   const accordionButtons = document.querySelectorAll('.accordion__button');
 
@@ -42,4 +44,30 @@ function initModal() {
   }
 
   accordionButtons.forEach(toggleAccordion);
+
+  function showLogin() {
+    const register = document.querySelector('.registration-wrapper');
+    const login = document.querySelector('.login-wrapper');
+    const registerTitle = document.getElementById('register-title');
+    const loginTitle = document.getElementById('login-title');
+
+    document
+      .querySelector('.options-wrapper')
+      .addEventListener('click', function(e) {
+        if (e.target.id === 'login-title') {
+          login.classList.remove('hide');
+          loginTitle.classList.remove('fade');
+          registerTitle.classList.add('fade');
+          register.classList.add('hide');
+        }
+        if (e.target.id === 'register-title') {
+          register.classList.remove('hide');
+          registerTitle.classList.remove('fade');
+          loginTitle.classList.add('fade');
+          login.classList.add('hide');
+        }
+      });
+  }
+
+  showLogin();
 })();
