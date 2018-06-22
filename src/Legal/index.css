@@ -99,3 +99,13 @@
 .requirements__button:nth-child(4n + 4) .job__accept {
   background-color: var(--color-red-dark);
 }
+
+.visa__title {
+  font-family: var(--font-roboto);
+  color: var(--color-orange-two);
+}
+
+.conditions {
+  font-family: var(--font-futura);
+  margin: 30px;
+}
