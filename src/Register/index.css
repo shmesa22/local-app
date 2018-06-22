@@ -27,9 +27,17 @@
 }
 
 .flex-align {
-  height: 357px;
+  height: 340px;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: flex-end;
   align-items: center;
+  font-family: var(--font-roboto);
+  letter-spacing: 2px;
+}
+
+.input {
+  border: 0;
+  box-shadow: 0 0.3px 0 black;
+  margin-bottom: 20px;
 }

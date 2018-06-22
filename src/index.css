@@ -135,28 +135,28 @@ section:target {
 }
 
 .icon_profile {
-  background: url(static/icons/icon-perfil.png) no-repeat;
+  background: url(static/icons/icon-perfil-2.png) no-repeat;
   background-size: contain;
   width: 28px;
   height: 28px;
 }
 
 .icon_health {
-  background: url(static/icons/icon-salud.png) no-repeat;
+  background: url(static/icons/icon-salud-2.png) no-repeat;
   background-size: contain;
   width: 28px;
   height: 28px;
 }
 
 .icon_work {
-  background: url(static/icons/icon-trabajo.png) no-repeat;
+  background: url(static/icons/icon-trabajo-2.png) no-repeat;
   background-size: contain;
   width: 28px;
   height: 28px;
 }
 
 .icon_legal {
-  background: url(static/icons/icon-legal.png) no-repeat;
+  background: url(static/icons/icon-legal-2.png) no-repeat;
   background-size: contain;
   width: 28px;
   height: 28px;
