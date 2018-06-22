@@ -30,6 +30,19 @@
   height: 357px;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: flex-end;
   align-items: center;
+  padding-top: 60px;
+  font-family: var(--font-roboto);
+  letter-spacing: 2px;
+}
+
+.registration-wrapper, .login-wrapper {
+  height: calc(100vh - 155px);
+}
+
+.input {
+  border: 0;
+  box-shadow: 0 0.3px 0 black;
+  margin-bottom: 20px;
 }
