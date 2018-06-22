@@ -1,5 +1,5 @@
 .text {
-  font-family: var(--font-roboto);
+  font-family: var(--font-futura);
   font-size: 12px;
   color: #000;
   letter-spacing: 2px;
@@ -51,53 +51,24 @@
   position: relative;
 }
 
-.requirements__button:nth-child(4n + 1) {
+#documents {
   background-color: var(--color-blue);
   z-index: 4;
 }
 
-.requirements__button:nth-child(4n + 2) {
+#radication {
   background-color: var(--color-orange-one);
   z-index: 3;
 }
 
-.requirements__button:nth-child(4n + 3) {
+#interview {
   background-color: var(--color-orange-two);
   z-index: 2;
 }
 
-.requirements__button:nth-child(4n + 4) {
+#resolution {
   background-color: var(--color-red);
   z-index: 1;
-}
-
-.requirements__button:nth-child(4n + 1) .job__description {
-  border-top: 2px solid var(--color-blue-dark);
-}
-
-.requirements__button:nth-child(4n + 1) .job__accept {
-  background-color: var(--color-blue-dark);
-}
-
-.requirements__button:nth-child(4n + 2) .job__description {
-  border-top: 2px solid var(--color-orange-one-dark);
-}
-.requirements__button:nth-child(4n + 2) .job__accept {
-  background-color: var(--color-orange-one-dark);
-}
-
-.requirements__button:nth-child(4n + 3) .job__description {
-  border-top: 2px solid var(--color-orange-two-dark);
-}
-.requirements__button:nth-child(4n + 3) .job__accept {
-  background-color: var(--color-orange-two-dark);
-}
-
-.requirements__button:nth-child(4n + 4) .job__description {
-  border-top: 2px solid var(--color-red-dark);
-}
-.requirements__button:nth-child(4n + 4) .job__accept {
-  background-color: var(--color-red-dark);
 }
 
 .visa__title {
