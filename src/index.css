@@ -33,6 +33,10 @@ section {
   display: none;
 }
 
+section:not(#landing) {
+  margin-bottom: 60px;
+}
+
 section:target {
   display: block;
 }
