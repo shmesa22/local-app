@@ -27,18 +27,13 @@
 }
 
 .flex-align {
-  height: 357px;
+  height: 340px;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
   align-items: center;
-  padding-top: 60px;
   font-family: var(--font-roboto);
   letter-spacing: 2px;
-}
-
-.registration-wrapper, .login-wrapper {
-  height: calc(100vh - 155px);
 }
 
 .input {
