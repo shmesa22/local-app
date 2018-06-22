@@ -39,27 +39,30 @@
 
 .requirements__button {
   list-style-type: none;
-  box-shadow: 0 4px 10px 1px var(--color-red-dark);
   position: relative;
 }
 
 #documents {
   background-color: var(--color-blue);
+  box-shadow: 0 4px 10px 1px var(--color-blue-dark);
   z-index: 4;
 }
 
 #radication {
   background-color: var(--color-orange-one);
+  box-shadow: 0 4px 10px 1px var(--color-orange-one-dark);
   z-index: 3;
 }
 
 #interview {
   background-color: var(--color-orange-two);
+  box-shadow: 0 4px 10px 1px var(--color-orange-two-dark);
   z-index: 2;
 }
 
 #resolution {
   background-color: var(--color-red);
+  box-shadow: 0 4px 10px 1px var(--color-red-dark);
   z-index: 1;
 }
 
@@ -143,4 +146,9 @@
 .legal-icon {
   position: absolute;
   right: 50px;
-} 
+}
+
+.return__button-container {
+  margin-top: 10px;
+  margin-bottom: 75px;
+}

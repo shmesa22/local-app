@@ -6,7 +6,7 @@
   align-items: center;
   box-shadow: 0 4px 10px 1px var(--color-red-dark);
   position: relative;
-  z-index: 5;
+  z-index: 6;
 }
 
 .category {
