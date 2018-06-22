@@ -15,11 +15,11 @@
 }
 
 .map {
-  height: calc(100vh - 120px);
-} 
+  height: calc(100vh - 275px);
+}
 
 .map__frame {
-  height: calc(100vh - 120px);
+  height: calc(100vh - 275px);
   width: 100%;
   box-sizing: border-box;
   border: none;
