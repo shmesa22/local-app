@@ -9,7 +9,7 @@
 .button {
   background-color: var(--color-blue);
   font-family: var(--font-futura);
-  margin: 25px;
+  margin: 15px;
   box-sizing: border-box;
   color: #fff;
   font-size: 10px;
@@ -22,15 +22,7 @@
   margin-left: 30%;
   margin-right: 30%;
   text-align: center;
-}
-
-.header__box {
-}
-
-.header__title {
-}
-
-.header__subhead {
+  font-size: 15px;
 }
 
 .requirements__button {
@@ -78,5 +70,70 @@
 
 .conditions {
   font-family: var(--font-futura);
-  margin: 30px;
+  padding: 30px;
+  padding-bottom: 60px;
+}
+
+.return-button {
+  position: absolute;
+  right: 30px;
+  background-color: blue;
+  padding: 15px;
+  color: white;
+  font-family: var(--font-futura);
+  font-size: 15px;
+  border: 0;
+  width: 120px;
+  text-align: center;
+  background-color: var(--color-blue);
+  margin-top: 0;
+}
+
+.header__title {
+  font-family: var(--font-futura);
+  font-size: 25px;
+  color: #fff;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  background-color: var(--color-blue);
+}
+
+.header__subhead {
+  font-family: var(--font-roboto);
+  font-size: 12px;
+  color: #fff;
+  letter-spacing: 2px;
+  background-color: var(--color-blue);
+}
+
+.legal__box {
+  background-color: var(--color-blue);
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  width: 100%;
+  height: 93px;
+  display: flex;
+  align-items: center;
+  color: #fff;
+  padding-left: 50px;
+  box-shadow: 0 4px 10px 1px var(--color-blue-dark);
+  border: none;
+  position: relative;
+  z-index: 5;
+}
+
+.legal__heading {
+  font-family: var(--font-futura);
+  font-size: 25px;
+  color: #fff;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+}
+
+.legal__subhead {
+  font-family: var(--font-roboto);
+  font-size: 12px;
+  color: #fff;
+  letter-spacing: 2px;
 }
