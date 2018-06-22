@@ -1,16 +1,23 @@
 <section id='health'>
+  <article class="landing__header">
+    <img src="https://bit.ly/2bHlWiZ" alt="Smiley face" height="45" width="150" class="category__icon">
+  </article>
   <article class="map" id="map">
-    <iframe class="map__frame" src="https://www.google.com/maps/d/u/0/embed?mid=1QFV2iJTeou2f8rfkSCHQxvOht-xWWn82" width="640" height="480"></iframe>
+    <iframe class="map__frame" src="https://www.google.com/maps/d/u/0/embed?mid=1QFV2iJTeou2f8rfkSCHQxvOht-xWWn82" width="640"
+      height="480"></iframe>
   </article>
   <article class="emergency-numbers">
-    <button class="emergency-numbers__button modal--open" data-modal="emergency-numbers__modal"><i class="icon icon_call"></i> Numeros de Emergencia</button>
+    <button class="emergency-numbers__button modal--open" data-modal="emergency-numbers__modal">
+      <i class="icon icon_call"></i> Numeros de Emergencia</button>
   </article>
   <div class="modal" id="emergency-numbers__modal">
     <div class="modal__content">
       <div class="modal__header">
         <i class="icon icon_phone"></i>
         <h2 class="modal__title">EMERGENCIA</h2>
-        <button class="modal--close" data-modal="emergency-numbers__modal"><i class="icon_close" data-modal="emergency-numbers__modal"></i></button>
+        <button class="modal--close" data-modal="emergency-numbers__modal">
+          <i class="icon_close" data-modal="emergency-numbers__modal"></i>
+        </button>
       </div>
       <div class="modal__body-title">
         Puedes comunicarte con:
@@ -37,4 +44,18 @@
       <p> #767</p>
     </div>
   </div>
+  <nav class="navbar">
+    <a class="navbar__link" href="#landing">
+      <i class="fas fa-home"></i>
+    </a>
+    <a class="navbar__link" href="#health">
+      <i class="fas fa-heartbeat"></i>
+    </a>
+    <a class="navbar__link" href="#employment">
+      <i class="fas fa-suitcase"></i>
+    </a>
+    <a class="navbar__link" href="#legal">
+      <i class="fas fa-balance-scale"></i>
+    </a>
+  </nav>
 </section>
