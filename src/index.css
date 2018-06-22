@@ -178,6 +178,13 @@ section:target {
   height: 33px;
 }
 
+.icon_register {
+  background: url(static/icons/icon-perfil-2.png) no-repeat;
+  background-size: contain;
+  width: 33px;
+  height: 33px;
+}
+
 .icon_navhealth {
   background: url(static/icons/icon-salud-2.png) no-repeat;
   background-size: contain;
