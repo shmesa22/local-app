@@ -126,3 +126,9 @@
 .employment-list__job:nth-child(4n + 4) .job__accept {
   background-color: var(--color-red-dark);
 }
+
+.employment-modal__option {
+  font-size: 15px;
+  font-family: var(--font-roboto);
+  color: black;
+}

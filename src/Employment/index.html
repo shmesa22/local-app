@@ -4,16 +4,33 @@
   </article>
 
   <div class="employment-filters">
-    <button class="employment-filters__button">OFERTAS DE EMPLEO
-      <span class="employment-filters__btn">Filtros</span>
+    <button class="employment-filters__button modal--open" data-modal="employment__modal">OFERTAS DE EMPLEO
+      <span class="employment-filters__btn" data-modal="employment__modal">Filtros</span>
     </button>
-    <!-- <ul class="employment-filters__content">
-      <li class="employment-filters__filter">Filtro 1</li>
-      <li class="employment-filters__filter">Filtro 2</li>
-      <li class="employment-filters__filter">Filtro 3</li>
-      <li class="employment-filters__filter">Filtro 4</li>
-      <li class="employment-filters__filter">Filtro 5</li>
-    </ul> -->
+  </div>
+  <div class="modal" id="employment__modal">
+    <div class="modal__content">
+      <div class="modal__header">
+        <h2 class="modal__title">Filtros</h2>
+        <button class="modal--close" data-modal="employment__modal">
+          <i class="icon_close" data-modal="employment__modal"></i>
+        </button>
+      </div>
+      <div class="modal__body-title">
+        <h3>CIUDAD</h3>
+         <p class="employment-modal__option"><input type="radio" name="Medellin" id="Medellin" /> Medellin</p> 
+         <p class="employment-modal__option"><input type="radio" name="Bogota" id="Bogota" /> Bogota</p> 
+         <p class="employment-modal__option"><input type="radio" name="Cali" id="Cali" /> Cali</p> 
+         <p class="employment-modal__option"><input type="radio" name="Barranquilla" id="Barranquilla" /> Barranquilla</p> 
+         <p class="employment-modal__option"><input type="radio" name="Cartagena" id="Cartagena" /> Cartagena</p> 
+        <h3>INTERESES</h3>
+        <p class="employment-modal__option"><input type="radio" name="Belleza" id="Belleza" /> Belleza</p> 
+        <p class="employment-modal__option"><input type="radio" name="Construccion" id="Construccion" /> Construccion</p> 
+        <p class="employment-modal__option"><input type="radio" name="Educacion" id="Educacion" /> Educacion</p> 
+        <p class="employment-modal__option"><input type="radio" name="Deporte" id="Deporte" /> Deporte</p> 
+        <p class="employment-modal__option"><input type="radio" name="Tecnologia" id="Tecnologia" /> Tecnologia</p> 
+      </div>
+    </div>
   </div>
   <div class="employment-list">
     <ul class="empoloyment-list__jobs">
