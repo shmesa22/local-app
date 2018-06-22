@@ -1,0 +1,35 @@
+.options-wrapper {
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--color-orange-one);
+  z-index: 4;
+  font-family: var(--font-futura);
+  font-size: 13px;
+  color: #fff;
+  letter-spacing: 3px;
+  box-shadow: 0 4px 10px 1px var(--color-red-dark);
+  position: relative;
+  height: 95px;
+  align-items: center;
+}
+
+.hide {
+  display: none;
+}
+
+.padding-25 {
+  padding: 35px;
+  margin: 0;
+}
+
+.fade {
+  color: #fe9195;
+}
+
+.flex-align {
+  height: 357px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}

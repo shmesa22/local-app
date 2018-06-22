@@ -1,0 +1,60 @@
+<section id="register">
+  <article class="landing__header">
+    <img src="../static/icons/logo.png" alt="Smiley face" height="45" width="199" class="category__icon">
+  </article>
+  <div class="options-wrapper">
+    <h1 id="register-title" class="padding-25">Registro</h1>
+    <h1 id="login-title" class="padding-25 fade">Login</h1>
+  </div>
+
+  <div class="registration-wrapper">
+    <form class="registration flex-align">
+      <label for="first-name" class="registration__first-name-label">Nombres:</label>
+      <input type="text" class="registration__first-name-input" id="first-name">
+
+      <label for="last-name" class="registration__last-name-label">Apellidos:</label>
+      <input type="text" class="registration__last-name-input" id="last-name">
+
+      <label for="document-type" class="registration__document-type">Tipo de Documento:</label>
+      <select id="document-type">
+        <option value="cedula-identidad">Cedula de Identidad</option>
+        <option value="pasaporte">Pasaporte</option>
+        <option value="none" selected>--Por favor escoje una opcion--</option>
+      </select>
+
+      <label for="document-number" class="registration__document-number-label">Numero de Documento:</label>
+      <input type="text" class="registration__document-number-input" id="document-number">
+
+      <label for="phone-number" class="registration__phone-number-label">Numero de contacto:</label>
+      <input type="text" class="registration__phone-number-input" id="phone-number">
+    </form>
+  </div>
+
+  <div class="login-wrapper hide">
+    <form class="login flex-align">
+      <label for="document-number" class="login__document-number-label">Numero de Documento:</label>
+      <input type="text" class="login__document-number-input" id="document-number">
+
+      <label for="contraseña" class="login__password-label">Contraseña:</label>
+      <input type="text" class="login__password-input" id="contraseña">
+    </form>
+  </div>
+
+  <nav class="navbar">
+    <a class="navbar__link" href="#landing">
+      <i class="icon_home"></i>
+    </a>
+    <a class="navbar__link" href="#register">
+      <i class="icon_register"></i>
+    </a>
+    <a class="navbar__link" href="#health">
+      <i class="icon_navhealth"></i>
+    </a>
+    <a class="navbar__link" href="#employment">
+      <i class="icon_suitcase"></i>
+    </a>
+    <a class="navbar__link" href="#legal">
+      <i class="icon_balance"></i>
+    </a>
+  </nav>
+</section>

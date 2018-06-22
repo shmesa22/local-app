@@ -2,12 +2,13 @@ import initEmployment from './Employment';
 import initLanding from './Landing';
 import initHealth from './Health/index';
 import initLegalLanding from './Legal';
+import initRegister from './Register';
 
 function initModal() {
   const MODAL_CLASS = 'modal';
   let modal = null;
-  const openModalButton = document.querySelector(`.${MODAL_CLASS}--open`);
-  const closeModalButton = document.querySelector(`.${MODAL_CLASS}--close`);
+  const openModalButton = document.querySelectorAll(`.${MODAL_CLASS}--open`);
+  const closeModalButton = document.querySelectorAll(`.${MODAL_CLASS}--close`);
 
   const openCloseModal = ({ target }) => {
     const modalId = target.getAttribute('data-modal');
@@ -15,8 +16,8 @@ function initModal() {
     modal.classList.toggle(`${MODAL_CLASS}--active`);
   };
 
-  openModalButton.addEventListener('click', openCloseModal);
-  closeModalButton.addEventListener('click', openCloseModal);
+  openModalButton.forEach(button => button.addEventListener('click', openCloseModal));
+  closeModalButton.forEach(button => button.addEventListener('click', openCloseModal));
 }
 
 (function App() {
@@ -25,6 +26,7 @@ function initModal() {
   initHealth();
   initLegalLanding();
   initModal();
+  initRegister();
 
   const accordionButtons = document.querySelectorAll('.accordion__button');
 
@@ -42,4 +44,30 @@ function initModal() {
   }
 
   accordionButtons.forEach(toggleAccordion);
+
+  function showLogin() {
+    const register = document.querySelector('.registration-wrapper');
+    const login = document.querySelector('.login-wrapper');
+    const registerTitle = document.getElementById('register-title');
+    const loginTitle = document.getElementById('login-title');
+
+    document
+      .querySelector('.options-wrapper')
+      .addEventListener('click', function(e) {
+        if (e.target.id === 'login-title') {
+          login.classList.remove('hide');
+          loginTitle.classList.remove('fade');
+          registerTitle.classList.add('fade');
+          register.classList.add('hide');
+        }
+        if (e.target.id === 'register-title') {
+          register.classList.remove('hide');
+          registerTitle.classList.remove('fade');
+          loginTitle.classList.add('fade');
+          login.classList.add('hide');
+        }
+      });
+  }
+
+  showLogin();
 })();
