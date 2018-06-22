@@ -24,14 +24,78 @@
   text-align: center;
 }
 
-.header__box{
+.header__box {
+}
 
-} 
+.header__title {
+}
 
-.header__title{
-    
-} 
+.header__subhead {
+}
 
-.header__subhead{
-    
-} 
+.requirements__button {
+  box-sizing: border-box;
+  width: 100%;
+  height: 93px;
+  display: flex;
+  align-items: center;
+  color: #fff;
+  font-size: 15px;
+  font-family: var(--font-futura);
+  padding-left: 50px;
+}
+
+.requirements__button {
+  list-style-type: none;
+  box-shadow: 0 4px 10px 1px var(--color-red-dark);
+  position: relative;
+}
+
+.requirements__button:nth-child(4n + 1) {
+  background-color: var(--color-blue);
+  z-index: 4;
+}
+
+.requirements__button:nth-child(4n + 2) {
+  background-color: var(--color-orange-one);
+  z-index: 3;
+}
+
+.requirements__button:nth-child(4n + 3) {
+  background-color: var(--color-orange-two);
+  z-index: 2;
+}
+
+.requirements__button:nth-child(4n + 4) {
+  background-color: var(--color-red);
+  z-index: 1;
+}
+
+.requirements__button:nth-child(4n + 1) .job__description {
+  border-top: 2px solid var(--color-blue-dark);
+}
+
+.requirements__button:nth-child(4n + 1) .job__accept {
+  background-color: var(--color-blue-dark);
+}
+
+.requirements__button:nth-child(4n + 2) .job__description {
+  border-top: 2px solid var(--color-orange-one-dark);
+}
+.requirements__button:nth-child(4n + 2) .job__accept {
+  background-color: var(--color-orange-one-dark);
+}
+
+.requirements__button:nth-child(4n + 3) .job__description {
+  border-top: 2px solid var(--color-orange-two-dark);
+}
+.requirements__button:nth-child(4n + 3) .job__accept {
+  background-color: var(--color-orange-two-dark);
+}
+
+.requirements__button:nth-child(4n + 4) .job__description {
+  border-top: 2px solid var(--color-red-dark);
+}
+.requirements__button:nth-child(4n + 4) .job__accept {
+  background-color: var(--color-red-dark);
+}
